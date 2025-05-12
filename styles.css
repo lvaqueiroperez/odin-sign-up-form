@@ -144,3 +144,26 @@ px es una solución más global, es ir a lo seguro
     flex-direction: column;
     gap: 1em;
 }
+
+.createAccountFormContainer {
+
+    padding: 1em 1em 2em 2em;
+    background: #ffff;
+
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+section>div {
+    display: flex;
+    gap: 5em;
+}
+
+.userInfo div div {
+    display: flex;
+    flex-direction: column;
+}
