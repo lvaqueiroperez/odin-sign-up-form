@@ -152,6 +152,10 @@ px es una solución más global, es ir a lo seguro
 
 }
 
+form>h2 {
+    margin-bottom: 1em;
+}
+
 .userInfo {
     display: flex;
     flex-direction: column;
