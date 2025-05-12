@@ -134,3 +134,12 @@ px es una solución más global, es ir a lo seguro
     height: 100vh;
     width: var(--rightSideWidth);
 }
+
+.heroQuoteContainer {
+    padding: 5em 5em 0 2em;
+    max-inline-size: 66ch;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
