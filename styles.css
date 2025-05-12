@@ -90,7 +90,7 @@ px es una solución más global, es ir a lo seguro
     display: flex;
     flex-direction: column;
     background: no-repeat url(./images/halie-west-25xggax4bSA-unsplash.jpg);
-    height: 100vh;
+    height: auto;
     width: var(--leftSideWidth);
     background-size: cover;
 }
@@ -131,7 +131,7 @@ px es una solución más global, es ir a lo seguro
 .rightSideContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     width: var(--rightSideWidth);
 }
 
