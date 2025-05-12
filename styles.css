@@ -75,6 +75,12 @@ h6 {
 }
 
 /*****************************************************************************************/
+/*probaré a usar medidas de longitudes con em primero, usando solo vh/vw cuando 
+de verdad sea necesario
+em está bien porque es relativo a los font-size padres y escala con la página para
+aquellos users que quieran cambiar el tamaño de la fuente.
+px es una solución más global, es ir a lo seguro
+*/
 .leftSideContainer {
     display: flex;
     flex-direction: column;
@@ -82,7 +88,6 @@ h6 {
     height: 100vh;
     width: 35vw;
     background-size: cover;
-    /*hacer clamp o calc en la background image relacionado con el right div!*/
 }
 
 .odinLogoContainer {
@@ -104,11 +109,6 @@ h6 {
     font-size: 6rem;
 }
 
-.rightSideContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .backgroundCreditsContainer {
     color: white;
     text-align: center;
@@ -120,4 +120,10 @@ h6 {
 .backgroundCreditsContainer span {
     text-decoration: underline;
     text-underline-offset: 2px;
+}
+
+/* usar calc o clamp en el rightcontainer y left*/
+.rightSideContainer {
+    display: flex;
+    flex-direction: column;
 }
