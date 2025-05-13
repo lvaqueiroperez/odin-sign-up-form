@@ -152,10 +152,9 @@ a la larga (debería probarlo?)
 }
 
 .createAccountFormContainer {
-
     padding: 1em 1em 2em 2em;
     background: #ffff;
-
+    box-shadow: 3px 3px 5px 1px #b7b7b7;
 }
 
 form>h2 {
