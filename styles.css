@@ -79,7 +79,8 @@ h6 {
 de verdad sea necesario
 em está bien porque es relativo a los font-size padres y escala con la página para
 aquellos users que quieran cambiar el tamaño de la fuente.
-px es una solución más global, es ir a lo seguro
+px es una solución más global, es ir a lo seguro pero quizás con no tan buenos resultados
+a la larga (debería probarlo?)
 */
 :root {
     --leftSideWidth: 35vw;
