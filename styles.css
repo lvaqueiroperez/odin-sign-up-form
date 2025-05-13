@@ -213,3 +213,12 @@ section>div {
     color: #596D48;
     font-weight: bold;
 }
+
+label>span {
+    font-size: 0.75rem;
+}
+
+.userInfo input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
