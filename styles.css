@@ -230,3 +230,8 @@ label>span {
     border-radius: 5px;
     outline: none;
 }
+
+#pwd:invalid,
+#pwdConfirm:invalid {
+    border: 1px solid #ec4427;
+}
