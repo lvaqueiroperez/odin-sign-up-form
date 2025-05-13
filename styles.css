@@ -221,4 +221,5 @@ label>span {
 .userInfo input {
     border: 1px solid #E5E7EB;
     border-radius: 5px;
+    width: clamp(10vw, 25vw, 250px);
 }
