@@ -221,4 +221,12 @@ label>span {
     border: 1px solid #E5E7EB;
     border-radius: 5px;
     width: clamp(10vw, 25vw, 250px);
+    padding: 0 10px;
+}
+
+.userInfo input:focus {
+    box-shadow: 2px 2px 3px 0px #b7b7b7;
+    border: 1px solid #457ce9;
+    border-radius: 5px;
+    outline: none;
 }
