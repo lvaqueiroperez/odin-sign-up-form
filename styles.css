@@ -127,6 +127,7 @@ a la larga (debería probarlo?)
 .odinLogoText {
     color: white;
     font-size: 6rem;
+    font-family: "norsebold", Roboto, sans-serif;
 }
 
 .backgroundCreditsContainer {
