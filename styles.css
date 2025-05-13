@@ -117,6 +117,7 @@ a la larga (debería probarlo?)
     margin-top: 25vh;
     flex-wrap: wrap;
     background-color: rgb(0, 0, 0, 0.4);
+    padding: 1em 0;
 }
 
 .odinLogo {
