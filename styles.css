@@ -186,6 +186,16 @@ section>div {
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 2em;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 1px #b7b7b7;
+}
+
+.submitFormContainer button:hover {
+    background: #4e603f;
+}
+
+.submitFormContainer button:active {
+    box-shadow: none;
 }
 
 .submitFormContainer p {
