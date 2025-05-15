@@ -121,12 +121,12 @@ a la larga (debería probarlo?)
     padding: 1em 0;
 }
 
-.odinLogo {
+.odinLogoContainer>img {
     height: auto;
     width: 170px;
 }
 
-.odinLogoText {
+.odinLogoContainer>span {
     color: white;
     font-size: 9rem;
     font-family: "norsebold", Roboto, sans-serif;
@@ -139,8 +139,7 @@ a la larga (debería probarlo?)
     margin-top: auto;
 }
 
-
-.backgroundCreditsContainer span {
+.backgroundCreditsContainer>span {
     text-decoration: underline;
     text-underline-offset: 2px;
 }
@@ -173,13 +172,13 @@ form>h2 {
     margin-bottom: 1em;
 }
 
-.userInfo {
+form .userInfo {
     display: flex;
     flex-direction: column;
     gap: 2em;
 }
 
-section>div {
+.userInfo>div {
     display: flex;
     gap: 5em;
 }
@@ -193,7 +192,7 @@ section>div {
     padding: 2em 1em 10em 2em;
 }
 
-.submitFormContainer button {
+.submitFormContainer>button {
     padding: 0.5em 3em;
     background: #596D48;
     border: none;
@@ -207,15 +206,15 @@ section>div {
     width: auto;
 }
 
-.submitFormContainer button:hover {
+.submitFormContainer>button:hover {
     background: #4e603f;
 }
 
-.submitFormContainer button:active {
+.submitFormContainer>button:active {
     box-shadow: none;
 }
 
-.submitFormContainer p {
+.submitFormContainer>p {
     font-size: 1.1rem;
 }
 
@@ -225,7 +224,7 @@ section>div {
     font-weight: bold;
 }
 
-label>span {
+.userInfo label>span {
     font-size: 0.75rem;
 }
 
