@@ -243,6 +243,7 @@ form .userInfo {
 }
 
 #pwd:invalid,
-#pwdConfirm:invalid {
+#pwdConfirm:invalid,
+#email:invalid {
     border: 1px solid #ec4427;
 }
