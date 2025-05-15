@@ -153,6 +153,15 @@ a la larga (debería probarlo?)
     background: #f5f5f5;
 }
 
+.changeThemeButton {
+    background: red;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    left: calc(100vw - 65px);
+    top: 2vh;
+}
+
 .heroQuoteContainer {
     padding: 5em 1em 2em 2em;
     max-inline-size: 66ch;
