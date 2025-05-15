@@ -37,7 +37,7 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     display: flex;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 img,
